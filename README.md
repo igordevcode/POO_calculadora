@@ -1,8 +1,8 @@
-# Sistema de Marcação de Ponto com Spring Boot
+# Calculadora com Spring Boot
 
 ## Descrição
 
-Este projeto consiste no desenvolvimento de um microserviço utilizando Java com Spring Boot, que implementa funcionalidades específicas por meio de no mínimo 5 rotas RESTful. O sistema é coberto por testes unitários com uma taxa mínima de 90%, utiliza Swagger para documentação da API, implementa autenticação para segurança e é publicado no Supabase para gerenciamento de banco de dados.
+Este projeto consiste no desenvolvimento de uma calculadora utilizando Java com Spring Boot. A aplicação implementa operações aritméticas básicas por meio de várias rotas RESTful. O sistema é coberto por testes unitários, utiliza Swagger para documentação da API, implementa autenticação para segurança e é publicado no Supabase para gerenciamento de banco de dados.
 
 ## Tecnologias e Ferramentas
 
@@ -16,13 +16,12 @@ Este projeto consiste no desenvolvimento de um microserviço utilizando Java com
 
 ## Requisitos Funcionais
 
-- **Rotas RESTful**: O microserviço expõe pelo menos 5 rotas RESTful cobrindo funcionalidades específicas do sistema. As rotas implementadas são:
+- **Rotas RESTful**: O microserviço expõe várias rotas RESTful para realizar operações aritméticas. As rotas implementadas são:
 
-    - `GET /api/usuarios`: Retorna a lista de todos os usuários.
-    - `POST /api/usuarios`: Cria um novo usuário.
-    - `GET /api/usuarios/{id}`: Retorna um usuário específico.
-    - `PUT /api/usuarios/{id}`: Atualiza os dados de um usuário específico.
-    - `DELETE /api/usuarios/{id}`: Exclui um usuário específico.
+    - `GET /api/somar?num1={num1}&num2={num2}`: Retorna a soma de dois números.
+    - `GET /api/subtrair?num1={num1}&num2={num2}`: Retorna a subtração de dois números.
+    - `GET /api/multiplicar?num1={num1}&num2={num2}`: Retorna a multiplicação de dois números.
+    - `GET /api/dividir?num1={num1}&num2={num2}`: Retorna a divisão de dois números.
 
 - **Testes Unitários**: Cobertura mínima de 90%. Testes validados com JUnit e Mockito para comportamento de cada rota e componente crítico da aplicação.
 
@@ -69,3 +68,4 @@ O microserviço será publicado e hospedado na infraestrutura de sua escolha (co
    ```bash
    git clone <URL do Repositório>
    cd <nome do diretório clonado>
+
