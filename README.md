@@ -25,8 +25,6 @@ Este projeto consiste no desenvolvimento de uma calculadora utilizando Java com 
 
 - **Testes Unitários**: Cobertura mínima de 90%. Testes validados com JUnit e Mockito para comportamento de cada rota e componente crítico da aplicação.
 
-- **Documentação com Swagger**: Documentação interativa da API, acessível em `/swagger-ui.html`.
-
 - **Autenticação e Segurança**:
     - Implementação de autenticação via Spring Security.
     - Suporte à autenticação via JWT (JSON Web Token).
