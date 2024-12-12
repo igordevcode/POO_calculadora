@@ -22,7 +22,7 @@ Este projeto consiste no desenvolvimento de uma calculadora utilizando Java com 
     - `GET /api/subtrair?num1={num1}&num2={num2}`: Retorna a subtração de dois números.
     - `GET /api/multiplicar?num1={num1}&num2={num2}`: Retorna a multiplicação de dois números.
     - `GET /api/dividir?num1={num1}&num2={num2}`: Retorna a divisão de dois números.
-    - 'GET /api/resultados? : Retorna o resultado dos calculos feitos.
+    - 'GET /api/resultados'? : Retorna o resultado dos calculos feitos.
 
 - **Testes Rapidos**: Cobertura mínima de 90%. Testes validados com o Mockito para comportamento de cada rota e componente crítico da aplicação.
 
